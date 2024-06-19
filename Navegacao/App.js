@@ -1,5 +1,3 @@
-// In App.js in a new project
-
 import 'react-native-gesture-handler';
 import * as React from 'react';
 import { View, Text, Button } from 'react-native';
@@ -10,8 +8,8 @@ function HomeScreen(props) {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Home Screen</Text>
-      <Button 
-        title='Ir para Sobre'
+      <Button
+        title='ir para sobre'
         onPress={() => props.navigation.navigate("Sobre")}
       />
     </View>
